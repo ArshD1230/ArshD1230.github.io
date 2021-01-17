@@ -12,4 +12,4 @@ API.get("users/ArshD1230/repos").then(data => {
 });
 console.log(html);
 const table = document.querySelector("#project-table");
-table.insertAdjacentHTML("beforeend", html);
+table.innerHTML = html;
