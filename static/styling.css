@@ -58,6 +58,12 @@
     background:white;
   }
 
+  .note {
+      position: absolute;
+      margin: auto;
+      background-color: #f0f1f5;
+  }
+
   .blog_post {
       padding: 10px;
       margin-top: 15px;
@@ -82,6 +88,14 @@
       border-radius: 5px;
       padding: 5px;
       color: white;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
   }
 
 @media (min-width: 768px) {
