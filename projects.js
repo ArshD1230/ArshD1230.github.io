@@ -1,8 +1,8 @@
 import {Backend} from "./backend.js";
 const API = new Backend();
 API.setBaseUrl("https://api.github.com/");
-let html = "";
 const table = document.querySelector("#project-table");
+let html = table.innerHTML;
 API.get("users/ArshD1230/repos").then(data => {
     data.forEach(repo => {
         if (repo.name != "first-contributions" && repo.name != "ArshD1230.github.io") {
