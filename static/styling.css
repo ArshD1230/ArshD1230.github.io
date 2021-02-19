@@ -26,7 +26,7 @@
 
   table {
     margin-top: 15px;
-    width: 40%; 
+    width: 90%; 
     margin-left: auto;
     margin-right: auto;
   }
@@ -83,3 +83,9 @@
       padding: 5px;
       color: white;
   }
+
+@media (min-width: 768px) {
+    table {
+      width: 40%;
+    }
+}
