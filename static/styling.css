@@ -100,6 +100,6 @@
 
 @media (min-width: 768px) {
     table {
-      width: 40%;
+      width: 768px;
     }
 }
